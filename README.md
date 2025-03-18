@@ -1,24 +1,34 @@
-# Full Stack AI Fianace Platform with Next JS, Supabase, Tailwind, Prisma, Inngest, ArcJet, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/egS6fnZAdzk
+# Welth: AI-Powered Finance Tracker
 
-<img width="1470" alt="Screenshot 2024-12-10 at 9 45 45 AM" src="https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432">
+**Overview**
+------------
 
-### Make sure to create a `.env` file with following variables -
+Welth is a comprehensive AI-driven finance tracker designed to simplify personal financial management. It leverages cutting-edge technologies to provide users with an intuitive and secure experience.
 
-```
-DATABASE_URL=
-DIRECT_URL=
+**Key Features**
+---------------
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+- **AI Receipt Scanner**: Automates receipt scanning and transaction entry using AI.
+- **Budget Management**: Tracks budgets with customizable email alerts for spending limits.
+- **Transaction Management**: Allows users to create, edit, and delete transactions, including recurring ones.
+- **Data Visualization**: Integrates interactive charts for detailed income and expense analysis.
+- **Security Features**: Implements rate limiting and bot protection using Arcjet.
 
-GEMINI_API_KEY=
+**Technical Details**
+--------------------
 
-RESEND_API_KEY=
+- **Frontend**: Built with **React** and **Next JS** for a seamless user experience.
+- **Styling**: Utilizes **Tailwind CSS** for responsive design and **Shadcn UI** for consistent UI components.
+- **Backend**: Powered by **Supabase** for robust database management and **Prisma** for efficient ORM.
+- **Authentication**: Secured with **Clerk** for user authentication.
+- **Serverless Functions**: Leverages **Inngest** for scalable serverless operations.
+- **Security**: Enhanced with **Arcjet** for comprehensive security measures.
 
-ARCJET_KEY=
-```
+**Getting Started**
+-------------------
+
+To run Welth locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/your-username/Welth.git`
+2. Install dependencies: `npm install`
+3. Start the application: `npm run dev`
