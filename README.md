@@ -1,9 +1,9 @@
-# Welth: AI-Powered Finance Tracker
+# Xpense: AI-Powered Finance Tracker
 
 **Overview**
 ------------
 
-Welth is a comprehensive AI-driven finance tracker designed to simplify personal financial management. It leverages cutting-edge technologies to provide users with an intuitive and secure experience.
+Xpense is a comprehensive AI-driven finance tracker designed to simplify personal financial management. It leverages cutting-edge technologies to provide users with an intuitive and secure experience.
 
 **Key Features**
 ---------------
@@ -27,8 +27,8 @@ Welth is a comprehensive AI-driven finance tracker designed to simplify personal
 **Getting Started**
 -------------------
 
-To run Welth locally, follow these steps:
+To run Xpense locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/Welth.git`
+1. Clone the repository: `git clone https://github.com/your-username/Xpense.git`
 2. Install dependencies: `npm install`
 3. Start the application: `npm run dev`
